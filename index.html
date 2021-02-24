@@ -60,7 +60,7 @@
     <!-- Header -->
     <header class="masthead bg-white text-dark text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/foto_cv.JPG" alt="">
         <h4 class="text-uppercase mb-0">Francisco Granados</h4>
         <!-- <hr class="star-light"> -->
         <h2 class="font-weight-light mb-0">Desarrollador Web</h2>
@@ -72,18 +72,23 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="#">
-              <i class="fa fa-fw fa-google-plus"></i>
+            <a class="btn btn-outline-dark btn-social text-center rounded-circle" target="_blank" href="https://www.instagram.com/fgranados7/">
+              <i class="fa fa-fw fa-instagram"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="#">
+            <a class="btn btn-outline-dark btn-social text-center rounded-circle" target="_blank" href="https://twitter.com/chopancr7">
               <i class="fa fa-fw fa-twitter"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="#">
+            <a class="btn btn-outline-dark btn-social text-center rounded-circle" target="_blank" href="https://www.linkedin.com/in/fgranados7">
               <i class="fa fa-fw fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-outline-dark btn-social text-center rounded-circle" target="_blank" href="https://github.com/FGranados7">
+              <i class="fa fa-fw fa-github"></i>
             </a>
           </li>
         </ul>
@@ -96,18 +101,40 @@
         <h2 class="text-center text-uppercase text-white">Acerca de Mi</h2>
         <hr class="star-light mb-5">
         <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          <div class="col-lg-4 ml-auto" style="text-align: justify;">
+            <p class="lead">
+              Apasionado por el mundo de la Tecnología y el aprendizaje continuo. 💻<br>
+              Me considero una persona proactiva, con alto sentido de la responsabilidad, honestidad, puntualidad y dispuesto a laborar competitivamente a todo nivel.
+            </p>
           </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          <div class="col-lg-4 mr-auto" style="text-align: justify;">
+            <p class="lead">
+              Gran gusto por la lectura, la musica y el deporte. 📘🎵⚽<br>
+              Me gusta participar en labores altruistas y contribuir con buenas acciones para el bien de la humanidad. 🤝
+            </p>
           </div>
         </div>
+        
+        <!-- <div class="row justify-content-center">
+          <div class="col-10">
+            Apasionado por el mundo de la Tecnología y el aprendizaje continuo.<br>
+            Me considero una persona proactiva, con alto sentido de la responsabilidad, honestidad, puntualidad y dispuesto a laborar competitivamente a todo nivel.<br>
+            Gran gusto por la lectura, la musica y el deporte.<br>
+            Me gusta participar en labores altruistas y contribuir con buenas acciones para el bien de la humanidad.
+          </div>
+        </div> -->
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
-            Download Now!
-          </a>
+          <button type="button" class="btn btn-outline-light" id="ver_mas_acerca"> Ver más...</button>
+        </div> 
+        <br>
+        <br>
+
+        <div class="row" id="div_ver_mas_acerca" style="display: none; background-color: brown; text-align: justify;">
+          <div class="col-lg-12 mr-auto">
+            <p class="lead">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -115,7 +142,7 @@
     <!-- Habilidades Section -->
     <section class="bg-secondary text-white mb-0" id="habilidades">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">¿Que tegnologias he usado?</h2>
+        <h2 class="text-center text-uppercase text-white">¿Que tecnologias he usado?</h2>
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-md-5 offset-md-5">
@@ -351,7 +378,8 @@
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">http://www.sii.gob.mx/corresponsabilidad/</p>
+              <p class="mb-5">http://www.sii.gob.mx/sirfosc/</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -485,6 +513,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+
+    <!-- Mis Scripts -->
+    <script src="js/principal.js"></script>
 
   </body>
 
